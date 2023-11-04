@@ -1,6 +1,7 @@
 hr {
-  background-color: black;
-  height: 5px;
+  border: none;
+  border-top: 2px solid;
+  color: #000000;
 }
 
 /* ol_lower-roman */

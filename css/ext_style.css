@@ -1,3 +1,7 @@
+hr {
+  background-color: black;
+}
+
 /* ol_lower-roman */
 .ol_lower-roman ol {
   display: table;

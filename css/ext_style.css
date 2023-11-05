@@ -70,7 +70,7 @@
 
 /* div_section-side */
 .div_section-side {
-  border: #000000 solid 1px;
+  border: #000000 solid 2px;
   padding: 0px !important;
   color: #000000;
   background-color: #A9A9A9;
@@ -79,10 +79,11 @@
 
 /* div_section-title */
 .div_section-title {
-  border: #000000 solid 1px;
+  border: #000000 solid 2px;
   border-top: none;
   border-bottom: none;
-  padding: 5px !important;
+  margin-top: 0.3em !important;
+  margin-bottom: 0.3em !important;
   color: #000000;
   background-color: #ffffff;
 }

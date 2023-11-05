@@ -74,6 +74,7 @@
   font-size: 100%;
   padding: 15px;
   color: #000000;
+  background-color: #ffffff;
 }
 
 /* div_img-box */
@@ -89,7 +90,6 @@
   border: none;
   font-size: 100%;
   padding: 2px;
-  background-color: #000000;
   color: #ffffff;
 }
 

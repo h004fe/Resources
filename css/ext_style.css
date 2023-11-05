@@ -148,3 +148,11 @@
   margin-left: 28px;
   color: black;
 }
+
+/* div_left-offset */
+.div_left-offset-smallfont {
+  padding: 0px;
+  margin-left: 28px;
+  color: black;
+  font-size: 60%;
+}

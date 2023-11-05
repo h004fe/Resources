@@ -76,7 +76,7 @@
 }
 
 /* div_column-title */
-#child1 {
+.child1 {
   background-color: black;
   border: none;
   font-size: 100%;
@@ -85,20 +85,20 @@
   color: #ffffff;
 }
 
-#child2 {
+.child2 {
   background-color: transparent;
 }
 
 @media (min-width: 600px) {
-  #parent {
+  .parent {
     display: flex;
   }
   
-  #child1 {
+  .child1 {
     flex-grow: 1;
   }
   
-  #child2 {
+  .child2 {
     flex-grow: 1;
   }
 }

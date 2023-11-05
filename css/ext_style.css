@@ -68,6 +68,26 @@
 .tbl_noboder table,td,tr,th {border:none!important}
 /* tbl_noboder */
 
+/* div_section-side */
+.div_section-side {
+  border: #000000 solid 1px;
+  font-size: 100%;
+  padding: 15px;
+  color: #000000;
+  background-color: #A9A9A9;
+}
+
+/* div_section-center */
+.div_section-title {
+  border: #000000 solid 1px;
+  border-top: none;
+  border-bottom: none;
+  font-size: 100%;
+  padding: 15px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
 /* div_box */
 .div_box {
   border: #000000 solid 1px;

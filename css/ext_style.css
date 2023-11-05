@@ -69,7 +69,7 @@
 /* tbl_noboder */
 
 /* div_box */
-.div_box div {
+.div_box {
   border: #000000 solid 1px;
   font-size: 100%;
   padding: 15px;

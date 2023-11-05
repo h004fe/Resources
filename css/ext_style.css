@@ -85,9 +85,8 @@
   border-bottom: none;
   color: #000000;
   background-color: #ffffff;
-  font-size: 150% !important;
-  margin-top: 1em !important;
-  margin-bottom: 1em !important;
+  font-size: 100% !important;
+  padding: 10px !important；
 }
 
 /* div_box */

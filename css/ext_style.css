@@ -79,14 +79,23 @@
 
 /* div_section-title */
 .div_section-title {
-  display: flex !important;
   border: #000000 solid 2px;
   border-top: none;
   border-bottom: none;
   color: #000000;
   background-color: #ffffff;
   font-size: 100% !important;
-  padding: 10px !important；
+}
+
+/* div_section-mergin */
+.div_section-mergin {
+  display: flex !important;
+  border: #000000 solid 2px;
+  border-top: none;
+  border-bottom: none;
+  color: #000000;
+  background-color: #ffffff;
+  font-size: 40% !important;
 }
 
 /* div_box */

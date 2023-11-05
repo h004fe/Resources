@@ -79,6 +79,7 @@
 
 /* div_section-title */
 .div_section-title {
+  display: flex !important;
   border: #000000 solid 2px;
   border-top: none;
   border-bottom: none;

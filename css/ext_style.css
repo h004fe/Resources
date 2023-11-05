@@ -141,3 +141,10 @@
   }
 }
 /* div_column-title */
+
+/* div_left-offset */
+.div_left-offset {
+  padding: 0px;
+  margin-left: 28px;
+  color: black;
+}

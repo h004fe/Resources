@@ -71,9 +71,10 @@
 /* div_section-side */
 .div_section-side {
   border: #000000 solid 1px;
-  padding: 0px;
+  padding: 0px !important;
   color: #000000;
   background-color: #A9A9A9;
+  font-size: 25% !important;
 }
 
 /* div_section-title */

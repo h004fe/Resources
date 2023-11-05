@@ -2,7 +2,7 @@
 .ol_lower-roman ol {
   display: table;
   margin: -0.4em;
-  padding: 0.2em;
+  padding: 0.4em;
 }
 
 .ol_lower-roman ol li {
@@ -35,7 +35,7 @@
 .ol_lower-latin ol {
   display: table;
   margin: -0.4em;
-  padding: 0.2em;
+  padding: 0.4em;
 }
 
 .ol_lower-latin ol li {

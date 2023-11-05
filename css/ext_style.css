@@ -74,7 +74,7 @@
   padding: 0px !important;
   color: #000000;
   background-color: #A9A9A9;
-  font-size: 25% !important;
+  font-size: 50% !important;
 }
 
 /* div_section-title */
@@ -82,8 +82,7 @@
   border: #000000 solid 1px;
   border-top: none;
   border-bottom: none;
-  font-size: 100%;
-  padding: 15px;
+  padding: 5px !important;
   color: #000000;
   background-color: #ffffff;
 }

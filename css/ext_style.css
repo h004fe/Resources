@@ -67,3 +67,10 @@
 /* tbl_noboder */
 .tbl_noboder table,td,tr,th {border:none!important}
 /* tbl_noboder */
+
+/* div_box */
+.div_box {
+  border: #000000 solid 1px;
+  font-size: 100%;
+  padding: 15px;
+}

@@ -75,6 +75,13 @@
   padding: 15px;
 }
 
+/* div_img-box */
+.div_img-box {
+  border: #000000 solid 1px;
+  font-size: 100%;
+  padding: 0px;
+}
+
 /* div_column-title */
 .child1 {
   background-color: black;

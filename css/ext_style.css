@@ -201,4 +201,5 @@
   border-radius: 10px;
   color: black;
   background-color: #ffffff;
+  overflow-x: scroll;
 }

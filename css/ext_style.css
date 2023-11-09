@@ -203,3 +203,10 @@
   background-color: #ffffff;
   overflow-x: scroll;
 }
+
+/* div_padding */
+.div_padding {
+  padding: 56px;
+  color: black;
+  background-color: #ffffff;
+}

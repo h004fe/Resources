@@ -16,7 +16,7 @@
 .ol_lower-roman ol li:before {
   content: "(" counter(table-ol, lower-roman) ")";
   display: table-cell;
-  padding-right: 0.6em;
+  padding-right: 0.3em;
   text-align: right;
 }
 

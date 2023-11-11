@@ -200,6 +200,7 @@ tbl_noboder table,td,tr,th {border:none!important}
   color: black;
   font-size: 95%;
   background-color: #ffffff;
+  overflow-x: scroll;
 }
 
 /* div_exercise_box */

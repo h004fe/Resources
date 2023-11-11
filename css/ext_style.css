@@ -101,6 +101,15 @@
 .tbl_noboder table,td,tr,th {border:none!important}
 /* tbl_noboder */
 
+/* tbl_html */
+.tbl_html table,td,tr,th {
+  background-color:white!important;
+  border-collapse: collapse!important;
+  border:1px solid black!important;
+}
+.tbl_html th {background-color:#AAAAAA!important}
+/* tbl_html */
+
 /* div_section-side */
 .div_section-side {
   border: #000000 solid 2px;

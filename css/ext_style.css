@@ -102,11 +102,11 @@ tbl_noboder table,td,tr,th {border:none!important}
 /* tbl_noboder */
 
 /* tbl_html */
-tbl_html {
+/*tbl_html {
   background-color:white;
   border-collapse: collapse;
   border:1px solid black!important;
-}
+}*/
 /*.tbl_html {background-color:#AAAAAA}*/
 /* tbl_html */
 

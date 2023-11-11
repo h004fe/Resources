@@ -98,7 +98,7 @@
 /* ol_lower-latin_alt */
 
 /* tbl_noboder */
-/*.tbl_noboder table,td,tr,th {border:none!important}*/
+tbl_noboder table,td,tr,th {border:none!important}
 /* tbl_noboder */
 
 /* tbl_html */
@@ -107,7 +107,7 @@
   border-collapse: collapse;
   border:1px solid black;
 }
-.tbl_html th {background-color:#AAAAAA!important}
+.tbl_html th {background-color:#AAAAAA}
 /* tbl_html */
 
 /* div_section-side */

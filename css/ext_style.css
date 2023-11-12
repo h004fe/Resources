@@ -27,8 +27,6 @@
 }
 
 .ol_number ol li:last-of-type:after {
-  color: black;
-  background-color: #ffffff;
   margin-bottom: 0;
 }
 /* ol_number */

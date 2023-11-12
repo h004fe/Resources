@@ -1,3 +1,36 @@
+/* ol_number */
+.ol_number ol {
+  display: table;
+  margin: -0.4em;
+  padding: 0.4em;
+}
+
+.ol_number ol li {
+  list-style-type: decimal;
+  margin: 0;
+  padding: 0;
+  display: table-row;
+  counter-increment: table-ol;
+}
+
+.ol_number ol li:before {
+  content: "(" counter(table-ol) ")";
+  display: table-cell;
+  padding-right: 0.6em;
+  text-align: right;
+}
+
+.ol_number ol li:after {
+  content: "";
+  display: block;
+  margin-bottom: 0.6em;
+}
+
+.ol_number ol li:last-of-type:after {
+  margin-bottom: 0;
+}
+/* ol_number */
+
 /* ol_lower-roman */
 .ol_lower-roman ol {
   display: table;

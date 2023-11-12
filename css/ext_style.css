@@ -3,8 +3,6 @@
   display: table;
   margin: -0.4em;
   padding: 0.4em;
-  color: black;
-  background-color: #ffffff;
 }
 
 .ol_number ol li {
@@ -13,8 +11,6 @@
   padding: 0;
   display: table-row;
   counter-increment: table-ol;
-  color: black;
-  background-color: #ffffff;
 }
 
 .ol_number ol li:before {
@@ -22,17 +18,12 @@
   display: table-cell;
   padding-right: 0.6em;
   text-align: right;
-  color: black;
-  background-color: #ffffff;
-
 }
 
 .ol_number ol li:after {
   content: "";
   display: block;
   margin-bottom: 0.6em;
-  color: black;
-  background-color: #ffffff;
 }
 
 .ol_number ol li:last-of-type:after {
@@ -261,6 +252,12 @@ tbl_noboder table,td,tr,th {border:none!important}
 /* div_padding */
 .div_padding {
   padding: 40px;
+  color: black;
+  background-color: #ffffff;
+}
+
+/* black-font */
+.black-font {
   color: black;
   background-color: #ffffff;
 }

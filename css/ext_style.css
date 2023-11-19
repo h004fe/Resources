@@ -1,3 +1,15 @@
+/* ol_maru */
+.ol_maru ol  {
+  margin: 0;
+  padding: 0
+}
+.ol_maru ol li  {
+  list-style: none;
+  padding-left: 1.3em;
+  text-indent: -1.3em;
+}
+/* ol_maru */
+
 /* ol_number */
 .ol_number ol {
   display: table;

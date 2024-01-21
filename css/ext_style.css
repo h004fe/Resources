@@ -1,3 +1,15 @@
+/* ol_case */
+.ol_case ol  {
+  margin: 0;
+  padding: 0;
+}
+.ol_case ol li  {
+  list-style: none;
+  padding-left: 3.37em;
+  text-indent: -3.37em;
+}
+/* ol_case */
+
 /* ol_maru */
 .ol_maru ol  {
   margin: 0;

@@ -1,3 +1,14 @@
+/* fm_ol_alpha */
+.fm_ol_alpha ol li {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  line-height: 1.5;
+}
+.fm_ol_alpha ol {
+  list-style-type: lower-alpha;
+}
+/* fm_ol_alpha */
+
 /* ol_case */
 .ol_case ol  {
   margin: 0;

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+  </head>
+  <body>
+    <h1 id="header"></h1>
+
+    <script>
+    var script = document.createElement('script');
+script.src = 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js';
+script.async = false;
+document.head.appendChild(script);
+let str = "\\frac{1}{5}"
+  //document.querySelector('#button').onclick = () => {  
+window.onload = function() {
+      
+      let ele = document.createElement("a")
+      let type = ele.download.replace(/[^\.]*\.(.*)/gu, "$1")
+      MathJax.tex2svgPromise(str, {display: true}).then((obj) => {
+        let svg = new XMLSerializer().serializeToString(obj.childNodes[0])
+        let svg_url = "data:image/svg+xml;charset=utf-8;," + encodeURIComponent(svg)
+          let cvs = document.createElement("canvas")
+          let img = new Image()
+          img.src = svg_url
+          img.onload = () => {
+            cvs.width = img.width
+            cvs.height = img.height
+            cvs.getContext("2d").drawImage(img, 0, 0)
+            ele.href = cvs.toDataURL("image/" + type)
+            document.write('<img src="' + ele.href + '" alt="画像の解説文">')
+            console.log(ele.href)
+            //ele.click()
+          }
+      })
+}
+    </script>
+  </body>
+</html>

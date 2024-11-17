@@ -42,7 +42,7 @@ window.onload = function() {
             cvs.height = img.height
             cvs.getContext("2d").drawImage(img, 0, 0)
             ele.href = cvs.toDataURL("image/" + type)
-            document.write('<img src="' + ele.href + '" alt="画像の解説文">')
+            document.write('<center><img src="' + ele.href + '"></center>')
             console.log(ele.href)
             //ele.click()
           }

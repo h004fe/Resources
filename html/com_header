@@ -2,6 +2,6 @@
 <head>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <link rel="stylesheet" href="https://h004fe.github.io/Resources/css/ext_style.css"></link>
-<link rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css"
+<link rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
 </head>
 <body>

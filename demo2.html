@@ -9,6 +9,7 @@
       packages = ["ipywidgets"]
     </py-config>
     <py-script>
+        await micropip.install("sqlite3") 
         #from IPython.display import display
         import ipywidgets as widgets
         w = widgets.IntSlider()

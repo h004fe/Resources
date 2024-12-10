@@ -5,8 +5,12 @@
     <script defer src="https://pyscript.net/latest/pyscript.js"></script>
   </head>
   <body>
+    <py-config>
+      packages = ["ipywidgets"]
+    </py-config>
     <py-script>
-        from IPython.display import display
+        #from IPython.display import display
+        import ipywidgets as widgets
         w = widgets.IntSlider()
         display(w)
     </py-script>
